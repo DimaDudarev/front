@@ -73,20 +73,19 @@ header {
 .prices {
     display: flex;
     gap: 6px;
-    align-items: center;
+    align-items: baseline;
+    margin-bottom: 5px;
 }
 
-.prices p {
+.old-price {
     font-size: 14px;
     color: #888888;
     justify-content: flex-end;
     align-items: flex-end;
     min-height: auto;
-    margin-top: 21px;
-    margin-bottom: none;
 }
 
-.prices h2 {
+.new-price {
     font-size: 30px;
     color: #ffffff;
 }
